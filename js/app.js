@@ -16,6 +16,7 @@ MyImagesObj.prototype.render = function() {
   let imgClone = $('div[class="clone"]');
   
   let imgHtml = $('#photo-template').html();
+  console.log(imgClone);
   
   imgClone.html(imgHtml);
   
